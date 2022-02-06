@@ -26,7 +26,7 @@ In this part, we propose a novel specification for LBGMs that allows for (1) une
 - Parallel Latent Basis Growth Model
 
 **Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/OpenMx_demo2.md)
+- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%202/OpenMx_demo2.md)
 (For OS, R version, and OpenMx version, see the demo)
 
 **Source Code:** <br>
