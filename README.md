@@ -11,7 +11,7 @@ In this part, we extend an existing LCSM with the Jenss-Bayley growth curve and 
 - Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration
 
 **Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/Extension_projects/blob/master/Part%204/OpenMx_demo4.md)
+- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/OpenMx_demo1.md)
 (For OS, R version, and OpenMx version, see the demo)
 
 **Source Code:** <br>
@@ -26,7 +26,7 @@ In this part, we propose a novel specification for LBGMs that allows for (1) une
 - Parallel Latent Basis Growth Model
 
 **Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/Extension_projects/blob/master/Part%205/OpenMx_demo5.md)
+- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/OpenMx_demo2.md)
 (For OS, R version, and OpenMx version, see the demo)
 
 **Source Code:** <br>
