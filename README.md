@@ -42,3 +42,68 @@ In this part, we propose a novel specification for LBGMs that allows for (1) une
 
 **Source Code:** <br>
 Will upload later.
+
+## Part IV: Decomposing Impact on Longitudinal Outcome of Time-varying Covariate into Baseline Effect and Temporal Effect
+**Manuscript Title:** <br>
+Decomposing Impact on Longitudinal Outcome of Time-varying Covariate into Baseline Effect and Temporal Effect (accepted for publication in Journal of Educational and Behavioral Statistics)
+
+**Description:** <br>
+In this part, we propose decomposing the TVC’s effect into initial trait and temporal states using three methods to address this limitation. In each method, the baseline of the TVC is viewed as an initial trait, and the corresponding effects are obtained by regressing random intercepts and slopes on the baseline value. Temporal states are characterized as 
+- interval-specific slopes,
+- interval-specific changes,
+- changes from the baseline at each measurement occasion.
+
+**Demo:** 
+- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/OpenMx_demo9.md)
+(For OS, R version, and OpenMx version, see the demo)
+
+**Example data:**
+- [Data for Model 1](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC1_BLS_dat.csv)
+- [Data for Model 2](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC2_BLS_dat.csv)
+- [Data for Model 3](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC3_BLS_dat.csv)
+(For OS, R version, and OpenMx version, see the demo)
+
+**Source Code:** <br>
+***R package: OpenMx*** <br>
+- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC1.R)
+- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC2.R)
+- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC3.R)
+
+***MPlus 8*** <br>
+- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/Mplus8_E9/BLSGM_TVCslp.inp)
+- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/Mplus8_E9/BLSGM_TVCslp.inp)
+- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/Mplus8_E9/BLSGM_TVCslp.inp)
+
+## Part V: Further Exploration of the Effects of Time-varying Covariate in Growth Mixture Models with Nonlinear Trajectories
+**Manuscript Title:** <br>
+Further Exploration of the Effects of Time-varying Covariate in Growth Mixture Models with Nonlinear Trajectories (Behavior Research Methods)
+
+**Description:** <br>
+In this part, we extended Part IV to mixture modeling framework and proposed 3 mixture models with TVC. In each model, the baseline of the TVC is viewed as an initial trait, and the corresponding effects are obtained by regressing random intercepts and slopes on the baseline value. Temporal states are characterized as 
+- interval-specific slopes,
+- interval-specific changes,
+- changes from the baseline at each measurement occasion.
+
+**Demo:** 
+- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/OpenMx_demo10.md)
+(For OS, R version, and OpenMx version, see the demo)
+
+**Example data:**
+- [Data for Model 1](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMMTVC1_BLS_dat.csv)
+- [Data for Model 2](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMMTVC2_BLS_dat.csv)
+- [Data for Model 3](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMMTVC3_BLS_dat.csv)
+(For OS, R version, and OpenMx version, see the demo)
+
+**Source Code:** <br>
+***R package: OpenMx*** <br>
+- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMM_TVC1.R)
+- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMM_TVC2.R)
+- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMM_TVC3.R)
+
+***MPlus 8*** <br>
+- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/Mplus8_E10/BLSGMM_TVCslp.inp)
+- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/Mplus8_E10/BLSGMM_TVCslp.inp)
+- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/Mplus8_E10/BLSGMM_TVCslp.inp)
+
+
+
