@@ -11,7 +11,7 @@ In this part, we extend an existing LCSM with the Jenss-Bayley growth curve and 
 - Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration
 
 **Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/OpenMx_demo.md)
+- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/OpenMx_P1/OpenMx_demo.md)
 (For OS, R version, and OpenMx version, see the demo)
 
 **Example data:**
@@ -19,8 +19,14 @@ In this part, we extend an existing LCSM with the Jenss-Bayley growth curve and 
 (For OS, R version, and OpenMx version, see the demo)
 
 **Source Code:** <br>
+***R package: OpenMx*** <br>
+**The models developed in this project are now part of *R* package *NonLinearCurve* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
 - [Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration](https://github.com/Veronica0206/NonLinearCurve/blob/main/R/LCSM_JB_random.R)
 - [Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration](https://github.com/Veronica0206/NonLinearCurve/blob/main/R/LCSM_JB_fixed.R)
+
+***MPlus 8*** <br>
+- [Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/MPlus8_P1/JB_LCSM_random.inp)
+- [Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/MPlus8_P1/JB_LCSM_fixed.inp)
 
 ## Part II: Parallel Latent Basis Growth Model in the Framework of Individual Measurement Occasions
 **Manuscript Title:** <br>
