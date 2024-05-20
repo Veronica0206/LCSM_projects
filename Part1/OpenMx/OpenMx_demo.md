@@ -87,11 +87,11 @@ show(Figure1)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo4_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
     ## Figure 2:
 
-![](OpenMx_demo4_files/figure-gfm/unnamed-chunk-6-2.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-6-2.png)<!-- -->
 
 ## Second Model: Latent Change Score Model with Jenss-Bayley Functional Form w/ Fixed Ratio
 
@@ -133,8 +133,8 @@ show(Figure2)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo4_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
     ## Figure 2:
 
-![](OpenMx_demo4_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
