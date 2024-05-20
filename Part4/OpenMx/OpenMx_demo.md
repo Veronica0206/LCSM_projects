@@ -80,7 +80,7 @@ show(Figure1)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo9_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ## Second Model: Latent Growth Curve Model with Decomposed TVC (Baseline and Interval-specific Changes)
 
@@ -122,7 +122,7 @@ show(Figure2)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo9_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ## Third Model: Latent Growth Curve Model with Decomposed TVC (Baseline and Change from Baseline)
 
@@ -164,4 +164,4 @@ show(Figure3)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo9_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
