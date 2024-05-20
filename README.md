@@ -10,23 +10,17 @@ In this part, we extend an existing LCSM with the Jenss-Bayley growth curve and 
 - Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration
 - Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration
 
-**Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/OpenMx_P1/OpenMx_demo.md)
-(For OS, R version, and OpenMx version, see the demo)
-
 **Example data:**
-- [Data](https://github.com/Veronica0206/NonLinearCurve/blob/main/data/JB_random_dat.RData)
-(For OS, R version, and OpenMx version, see the demo)
+- [Data](https://github.com/Veronica0206/LCSM_projects/tree/main/Part1/Data/JB_dat.RData)
 
 **Source Code:** <br>
-***R package: OpenMx*** <br>
-**The models developed in this project are now part of *R* package *NonLinearCurve* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
-- [Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration](https://github.com/Veronica0206/NonLinearCurve/blob/main/R/LCSM_JB_random.R)
-- [Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration](https://github.com/Veronica0206/NonLinearCurve/blob/main/R/LCSM_JB_fixed.R)
-
+***R package: nlpsem*** <br>
+**The models developed in this project are now part of *R* package *nlpsem* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
+- [*R* package: *nlpsem*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part1/OpenMx/OpenMx_demo.md/OpenMx_demo.md)
+- 
 ***MPlus 8*** <br>
-- [Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/MPlus8_P1/JB_LCSM_random.inp)
-- [Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%201/MPlus8_P1/JB_LCSM_fixed.inp)
+- [Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/tree/main/Part1/Mplus8/JB_LCSM_random.inp)
+- [Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/tree/main/Part1/Mplus8/JB_LCSM_fixed.inp)
 
 ## Part II: Parallel Latent Basis Growth Model in the Framework of Individual Measurement Occasions
 **Manuscript Title:** <br>
@@ -43,6 +37,27 @@ In this part, we propose a novel specification for LBGMs that allows for (1) une
 **Source Code:** <br>
 Will upload later.
 
+## Part III: Estimating Rate of Change for Nonlinear Trajectories in the Framework of Individual Measurement Occasions: A New Perspective on Growth Curves
+**Manuscript Title:** <br>
+Estimating Rate of Change for Nonlinear Trajectories in the Framework of Individual Measurement Occasions: A New Perspective on Growth Curves
+
+**Description:** <br>
+In this part, we propose new specification for latent change score models and demonstrate how to apply this specification to the below functional forms 
+- nonparametric functional form,
+- quadratic functional form,
+- exponential functional form,
+- Jenss-Bayley functional form.
+
+**Example data:**
+- [nonparametric functional form](https://github.com/Veronica0206/LCSM_projects/tree/main/Part3/Data/NonP_dat.RData)
+- [quadratic functional form](https://github.com/Veronica0206/LCSM_projects/tree/main/Part3/Data/QUAD_dat.RData)
+- [exponential functional form](https://github.com/Veronica0206/LCSM_projects/tree/main/Part3/Data/EXP_dat.RData)
+- [Jenss-Bayley functional form](https://github.com/Veronica0206/LCSM_projects/tree/main/Part3/Data/JB_dat.RData)
+
+***R package: nlpsem*** <br>
+**The models developed in this project are now part of *R* package *nlpsem* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
+- [*R* package: *nlpsem*](https://github.com/Veronica0206/LCSM_projects/tree/main/Part3/OpenMx/OpenMx_demo.md)
+
 ## Part IV: Decomposing Impact on Longitudinal Outcome of Time-varying Covariate into Baseline Effect and Temporal Effect
 **Manuscript Title:** <br>
 Decomposing Impact on Longitudinal Outcome of Time-varying Covariate into Baseline Effect and Temporal Effect (accepted for publication in Journal of Educational and Behavioral Statistics)
@@ -53,26 +68,20 @@ In this part, we propose decomposing the TVC’s effect into initial trait and t
 - interval-specific changes,
 - changes from the baseline at each measurement occasion.
 
-**Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/OpenMx_demo9.md)
-(For OS, R version, and OpenMx version, see the demo)
-
 **Example data:**
-- [Data for Model 1](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC1_BLS_dat.csv)
-- [Data for Model 2](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC2_BLS_dat.csv)
-- [Data for Model 3](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC3_BLS_dat.csv)
-(For OS, R version, and OpenMx version, see the demo)
+- [Data for Model 1](https://github.com/Veronica0206/LCSM_projects/tree/main/Part4/Data/TVC1_BLS_dat.RData)
+- [Data for Model 2](https://github.com/Veronica0206/LCSM_projects/tree/main/Part4/Data/TVC2_BLS_dat.RData)
+- [Data for Model 3](https://github.com/Veronica0206/LCSM_projects/tree/main/Part4/Data/TVC3_BLS_dat.RData)
 
 **Source Code:** <br>
-***R package: OpenMx*** <br>
-- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC1.R)
-- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC2.R)
-- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/OpenMx_E9/TVC3.R)
+***R package: nlpsem*** <br>
+**The models developed in this project are now part of *R* package *nlpsem* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
+- [*R* package: *nlpsem*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part4/OpenMx/OpenMx_demo.md)
 
 ***MPlus 8*** <br>
-- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/Mplus8_E9/BLSGM_TVCslp.inp)
-- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/Mplus8_E9/BLSGM_TVCslp.inp)
-- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%204/Mplus8_E9/BLSGM_TVCslp.inp)
+- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/tree/main/Part4/MPlus8/BLSGM_TVCslp.inp)
+- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/tree/main/Part4/MPlus8/BLSGM_TVCslp.inp)
+- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/tree/main/Part4/MPlus8/BLSGM_TVCslp.inp)
 
 ## Part V: Further Exploration of the Effects of Time-varying Covariate in Growth Mixture Models with Nonlinear Trajectories
 **Manuscript Title:** <br>
@@ -84,26 +93,20 @@ In this part, we extended Part IV to mixture modeling framework and proposed 3 m
 - interval-specific changes,
 - changes from the baseline at each measurement occasion.
 
-**Demo:** 
-- [*R* package: *OpenMx*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/OpenMx_demo10.md)
-(For OS, R version, and OpenMx version, see the demo)
-
 **Example data:**
-- [Data for Model 1](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMMTVC1_BLS_dat.csv)
-- [Data for Model 2](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMMTVC2_BLS_dat.csv)
-- [Data for Model 3](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMMTVC3_BLS_dat.csv)
-(For OS, R version, and OpenMx version, see the demo)
+- [Data for Model 1](https://github.com/Veronica0206/LCSM_projects/tree/main/Part5/Data/TVC1_BLS_dat2.RData)
+- [Data for Model 2](https://github.com/Veronica0206/LCSM_projects/tree/main/Part5/Data/TVC2_BLS_dat2.RData)
+- [Data for Model 3](https://github.com/Veronica0206/LCSM_projects/tree/main/Part5/Data/TVC3_BLS_dat2.RData)
 
 **Source Code:** <br>
-***R package: OpenMx*** <br>
-- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMM_TVC1.R)
-- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMM_TVC2.R)
-- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/OpenMx_E10/GMM_TVC3.R)
+***R package: nlpsem*** <br>
+**The models developed in this project are now part of *R* package *nlpsem* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
+- [*R* package: *nlpsem*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part5/OpenMx/OpenMx_demo.md)
 
 ***MPlus 8*** <br>
-- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/Mplus8_E10/BLSGMM_TVCslp.inp)
-- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/Mplus8_E10/BLSGMM_TVCslp.inp)
-- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/blob/main/Part%205/Mplus8_E10/BLSGMM_TVCslp.inp)
+- [Decomposing TVC into baseline and interval-specific slopes](https://github.com/Veronica0206/LCSM_projects/tree/main/Part5/MPlus8/BLSGMM_TVCslp.inp)
+- [Decomposing TVC into baseline and interval-specific changes](https://github.com/Veronica0206/LCSM_projects/tree/main/Part5/MPlus8/BLSGMM_TVCchg.inp)
+- [Decomposing TVC into baseline and changes from the baseline at each measurement occasion](https://github.com/Veronica0206/LCSM_projects/tree/main/Part5/MPlus8/BLSGMM_TVCchgBL.inp)
 
 
 
