@@ -73,11 +73,11 @@ show(Figure1)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
     ## Figure 2:
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
 
 ## Second Model: Latent Change Score Model with Quadratic Functional Form
 
@@ -124,11 +124,11 @@ show(Figure2)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
     ## Figure 2:
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
 
 ## Third Model: Latent Change Score Model with Exponential Functional Form
 
@@ -175,11 +175,11 @@ show(Figure3)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
     ## Figure 2:
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-13-2.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-13-2.png)<!-- -->
 
 ## Fourth Model: Latent Change Score Model with Jenss-Bayley Functional Form
 
@@ -227,8 +227,8 @@ show(Figure4)
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
     ## Figure 2:
 
-![](OpenMx_demo8_files/figure-gfm/unnamed-chunk-17-2.png)<!-- -->
+![](OpenMx_demo_files/figure-gfm/unnamed-chunk-17-2.png)<!-- -->
