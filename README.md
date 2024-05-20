@@ -16,8 +16,8 @@ In this part, we extend an existing LCSM with the Jenss-Bayley growth curve and 
 **Source Code:** <br>
 ***R package: nlpsem*** <br>
 **The models developed in this project are now part of *R* package *nlpsem* (dependency: *OpenMx*), where we provide functions capable of 'calculating' starting values from the input and generate the estimates described in the manuscript.**
-- [*R* package: *nlpsem*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part1/OpenMx/OpenMx_demo.md/OpenMx_demo.md)
-- 
+- [*R* package: *nlpsem*](https://github.com/Veronica0206/LCSM_projects/blob/main/Part1/OpenMx/OpenMx_demo.md)
+
 ***MPlus 8*** <br>
 - [Jenss-Bayley Latent Change Score Model with Random Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/tree/main/Part1/Mplus8/JB_LCSM_random.inp)
 - [Jenss-Bayley Latent Change Score Model with Fixed Ratio of Growth Acceleration](https://github.com/Veronica0206/LCSM_projects/tree/main/Part1/Mplus8/JB_LCSM_fixed.inp)
